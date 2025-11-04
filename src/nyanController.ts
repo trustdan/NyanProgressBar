@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import { NyanWebviewViewProvider } from './nyanWebviewViewProvider';
+import { log } from './extension';
 
 type SpeedSetting = 'slow' | 'normal' | 'fast';
 
@@ -80,6 +81,7 @@ export class NyanController implements vscode.Disposable {
 
   beginContext(reason: string, options: StartOptions = {}, contextId?: string): string {
     const id = contextId ?? this.createContextId();
+    log(`beginContext: "${id}" with reason: "${reason}", autoReveal: ${options.autoReveal}, forceReveal: ${options.forceReveal}`);
     this.contexts.set(id, reason);
     this.start(reason, options);
     return id;
@@ -87,19 +89,23 @@ export class NyanController implements vscode.Disposable {
 
   endContext(contextId: string, completionMessage = COMPLETION_FALLBACK): void {
     if (!this.contexts.has(contextId)) {
+      log(`endContext: Context "${contextId}" not found`);
       return;
     }
+    log(`endContext: "${contextId}" with message: "${completionMessage}", remaining contexts: ${this.contexts.size - 1}`);
     this.contexts.delete(contextId);
     if (this.manualContextId === contextId) {
       this.manualContextId = undefined;
     }
 
     if (this.contexts.size === 0) {
+      log(`No more contexts, stopping with message: "${completionMessage}"`);
       this.stop(completionMessage);
       return;
     }
 
     const nextReason = Array.from(this.contexts.values()).pop() ?? 'Working…';
+    log(`Switching to next context: "${nextReason}"`);
     this.start(nextReason, { autoReveal: false });
   }
 
@@ -123,11 +129,12 @@ export class NyanController implements vscode.Disposable {
   }
 
   start(reason = 'Working…', options: StartOptions = {}): void {
+    log(`start called with reason: "${reason}", running: ${this.running}, autoReveal: ${options.autoReveal}, forceReveal: ${options.forceReveal}`);
     const shouldReveal = Boolean(options.forceReveal) || (Boolean(options.autoReveal) && this.isAutoRevealEnabled());
 
     if (!this.running) {
+      log('Starting new animation session');
       this.running = true;
-      this.viewProvider.start(reason);
       if (this.isStatusBarEnabled()) {
         this.statusBarItem.show();
       }
@@ -138,26 +145,34 @@ export class NyanController implements vscode.Disposable {
       } else {
         this.beginStatusAnimation();
       }
+    } else {
+      log('Animation already running, updating status only');
     }
 
+    // Always send start message to webview to ensure it's animating
+    this.viewProvider.start(reason);
     this.viewProvider.setStatusText(reason);
     if (this.isStatusBarEnabled()) {
       this.statusBarItem.tooltip = reason;
     }
 
     if (shouldReveal) {
-      this.viewProvider.reveal(true);
+      log('Revealing view with focus');
+      this.viewProvider.reveal(false); // false = steal focus
     }
   }
 
   stop(reason = COMPLETION_FALLBACK): void {
+    log(`stop called with reason: "${reason}", running: ${this.running}`);
     if (!this.running) {
+      log('Already stopped, updating status only');
       this.viewProvider.setStatusText(reason);
       this.statusBarItem.text = '$(rocket) Nyan idle';
       this.statusBarItem.tooltip = 'Show the Nyan progress animation';
       return;
     }
 
+    log('Stopping animation session');
     this.running = false;
     this.viewProvider.stop();
     this.viewProvider.setStatusText(reason);

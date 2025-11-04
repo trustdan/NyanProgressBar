@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run package:*)",
+      "Bash(npm run:*)",
+      "Bash(npx vsce package)",
+      "Bash(npx vsce:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

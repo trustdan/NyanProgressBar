@@ -15,6 +15,20 @@
 				"kind": "build",
 				"isDefault": true
 			}
+		},
+		{
+			"label": "Nyan Demo: Slow Task",
+			"type": "shell",
+			"command": "npm run demo:slow-task",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "never",
+				"panel": "shared",
+				"focus": false
+			}
 		}
 	]
 }

@@ -1,0 +1,15 @@
+[21:23:18.882] Extension activating...
+[21:23:18.883] Extension activated successfully
+[21:23:33.271] onDidStartTask: Creating task context for "Task: Nyan Demo: Slow Task"
+[21:23:33.272] beginContext: "ctx-mhl2t15k-xyd3sd" with reason: "Task: Nyan Demo: Slow Task", autoReveal: true, forceReveal: true
+[21:23:33.272] start called with reason: "Task: Nyan Demo: Slow Task", running: false, autoReveal: true, forceReveal: true
+[21:23:33.272] Starting new animation session
+[21:23:33.272] Revealing view with focus
+[21:23:33.539] onDidStartTaskProcess: Task context already exists for "Task: Nyan Demo: Slow Task"
+[21:23:47.317] onDidEndTaskProcess: "Nyan Demo: Slow Task", exitCode: 0
+[21:23:47.318] Ending context "ctx-mhl2t15k-xyd3sd" with message: "Task finished: Nyan Demo: Slow Task"
+[21:23:47.318] endContext: "ctx-mhl2t15k-xyd3sd" with message: "Task finished: Nyan Demo: Slow Task", remaining contexts: 0
+[21:23:47.318] No more contexts, stopping with message: "Task finished: Nyan Demo: Slow Task"
+[21:23:47.318] stop called with reason: "Task finished: Nyan Demo: Slow Task", running: true
+[21:23:47.318] Stopping animation session
+[21:23:47.318] onDidEndTask: "Nyan Demo: Slow Task" - context already ended, skipping

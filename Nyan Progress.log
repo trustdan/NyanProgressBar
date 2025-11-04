@@ -1,0 +1,28 @@
+[22:07:21.555] Extension activating...
+[22:07:21.555] Extension activated successfully
+[22:08:16.698] onDidStartTask: Creating task context for "Task: Nyan Demo: Slow Task"
+[22:08:16.698] beginContext: "ctx-mhl4ejp6-6ixidm" with reason: "Task: Nyan Demo: Slow Task", autoReveal: true, forceReveal: true
+[22:08:16.698] start called with reason: "Task: Nyan Demo: Slow Task", running: false, autoReveal: true, forceReveal: true
+[22:08:16.698] Starting new animation session
+[22:08:16.698] Revealing view with focus
+[22:08:16.868] onDidStartTaskProcess: Task context already exists for "Task: Nyan Demo: Slow Task"
+[22:08:30.727] onDidEndTaskProcess: "Nyan Demo: Slow Task", exitCode: 0
+[22:08:30.727] Ending context "ctx-mhl4ejp6-6ixidm" with message: "Task finished: Nyan Demo: Slow Task"
+[22:08:30.727] endContext: "ctx-mhl4ejp6-6ixidm" with message: "Task finished: Nyan Demo: Slow Task", remaining contexts: 0
+[22:08:30.727] No more contexts, stopping with message: "Task finished: Nyan Demo: Slow Task"
+[22:08:30.727] stop called with reason: "Task finished: Nyan Demo: Slow Task", running: true
+[22:08:30.727] Stopping animation session
+[22:08:30.728] onDidEndTask: "Nyan Demo: Slow Task" - context already ended, skipping
+[22:08:43.743] onDidStartTask: Creating task context for "Task: Nyan Demo: Slow Task"
+[22:08:43.743] beginContext: "ctx-mhl4f4kf-co5bdf" with reason: "Task: Nyan Demo: Slow Task", autoReveal: true, forceReveal: true
+[22:08:43.743] start called with reason: "Task: Nyan Demo: Slow Task", running: false, autoReveal: true, forceReveal: true
+[22:08:43.743] Starting new animation session
+[22:08:43.743] Revealing view with focus
+[22:08:43.868] onDidStartTaskProcess: Task context already exists for "Task: Nyan Demo: Slow Task"
+[22:08:57.640] onDidEndTaskProcess: "Nyan Demo: Slow Task", exitCode: 0
+[22:08:57.640] Ending context "ctx-mhl4f4kf-co5bdf" with message: "Task finished: Nyan Demo: Slow Task"
+[22:08:57.640] endContext: "ctx-mhl4f4kf-co5bdf" with message: "Task finished: Nyan Demo: Slow Task", remaining contexts: 0
+[22:08:57.641] No more contexts, stopping with message: "Task finished: Nyan Demo: Slow Task"
+[22:08:57.641] stop called with reason: "Task finished: Nyan Demo: Slow Task", running: true
+[22:08:57.641] Stopping animation session
+[22:08:57.642] onDidEndTask: "Nyan Demo: Slow Task" - context already ended, skipping

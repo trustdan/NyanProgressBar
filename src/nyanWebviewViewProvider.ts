@@ -6,7 +6,7 @@ type NyanConfigSnapshot = {
 };
 
 type Message = {
-  type: 'start' | 'stop' | 'config' | 'status';
+  type: 'start' | 'stop' | 'config' | 'status' | 'ready';
   payload?: unknown;
 };
 
@@ -15,11 +15,15 @@ export class NyanWebviewViewProvider implements vscode.WebviewViewProvider {
 
   private view?: vscode.WebviewView;
   private readonly pendingMessages: Message[] = [];
+  private isReady = false;
+  private pendingReveal?: boolean; // undefined = no pending reveal, true = preserve focus, false = steal focus
 
   constructor(private readonly context: vscode.ExtensionContext) {}
 
   resolveWebviewView(webviewView: vscode.WebviewView): void {
+    console.log('[NyanProgress] resolveWebviewView called, isReady:', this.isReady, 'pendingMessages:', this.pendingMessages.length);
     this.view = webviewView;
+    this.isReady = false;
     webviewView.webview.options = {
       enableScripts: true,
       localResourceRoots: [vscode.Uri.joinPath(this.context.extensionUri, 'media')],
@@ -27,20 +31,39 @@ export class NyanWebviewViewProvider implements vscode.WebviewViewProvider {
 
     webviewView.webview.html = this.renderHtml(webviewView.webview);
     webviewView.webview.onDidReceiveMessage((message) => {
+      if (message?.type === 'ready') {
+        console.log('[NyanProgress] Received ready message, flushing', this.pendingMessages.length, 'pending messages');
+        this.isReady = true;
+        this.flushQueue();
+        this.postMessage({ type: 'config', payload: this.readConfiguration() });
+        if (this.pendingReveal !== undefined && this.view) {
+          console.log('[NyanProgress] Revealing view after ready, preserveFocus:', this.pendingReveal);
+          this.view.show?.(this.pendingReveal);
+          this.pendingReveal = undefined;
+        }
+        return;
+      }
       if (message?.type === 'toggle') {
         vscode.commands.executeCommand('nyanProgress.toggle');
       }
     });
     webviewView.onDidDispose(() => {
+      console.log('[NyanProgress] View disposed');
       this.view = undefined;
+      this.isReady = false;
+      this.pendingReveal = undefined;
     });
     this.flushQueue();
-    this.postMessage({ type: 'config', payload: this.readConfiguration() });
   }
 
   reveal(preserveFocus: boolean): void {
-    if (this.view) {
+    if (this.view && this.isReady) {
+      console.log('[NyanProgress] Revealing view immediately, preserveFocus:', preserveFocus);
       this.view.show?.(preserveFocus);
+      this.pendingReveal = undefined;
+    } else {
+      console.log('[NyanProgress] Deferring reveal, preserveFocus:', preserveFocus);
+      this.pendingReveal = preserveFocus;
     }
   }
 
@@ -66,17 +89,19 @@ export class NyanWebviewViewProvider implements vscode.WebviewViewProvider {
   }
 
   private postMessage(message: Message): void {
-    if (this.view) {
+    if (this.view && this.isReady) {
+      console.log('[NyanProgress] Sending message:', message.type);
       this.view.webview.postMessage(message).then(undefined, (error: unknown) => {
         console.error('[NyanProgress] Failed to post message to webview', error);
       });
     } else {
+      console.log('[NyanProgress] Queueing message:', message.type, '(view:', !!this.view, 'isReady:', this.isReady, ')');
       this.pendingMessages.push(message);
     }
   }
 
   private flushQueue(): void {
-    if (!this.view || this.pendingMessages.length === 0) {
+    if (!this.view || !this.isReady || this.pendingMessages.length === 0) {
       return;
     }
     for (const message of this.pendingMessages.splice(0)) {

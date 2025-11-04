@@ -2,6 +2,7 @@ import * as vscode from 'vscode';
 import { NyanController, WithNyanProgressOptions } from './nyanController';
 
 let controller: NyanController | undefined;
+let outputChannel: vscode.OutputChannel | undefined;
 
 export interface NyanProgressApi {
   withProgress<T>(
@@ -13,8 +14,13 @@ export interface NyanProgressApi {
 }
 
 export function activate(context: vscode.ExtensionContext): NyanProgressApi {
+  outputChannel = vscode.window.createOutputChannel('Nyan Progress');
+  context.subscriptions.push(outputChannel);
+
+  log('Extension activating...');
   controller = new NyanController(context);
   context.subscriptions.push(controller);
+  log('Extension activated successfully');
 
   context.subscriptions.push(
     vscode.commands.registerCommand('nyanProgress.toggle', () => {
@@ -29,25 +35,66 @@ export function activate(context: vscode.ExtensionContext): NyanProgressApi {
   );
 
   const taskContexts = new WeakMap<vscode.TaskExecution, string>();
+  const ensureTaskContext = (execution: vscode.TaskExecution, reason: string, eventType: string): void => {
+    if (!controller) {
+      return;
+    }
+    if (taskContexts.has(execution)) {
+      log(`${eventType}: Task context already exists for "${reason}"`);
+      return;
+    }
+    log(`${eventType}: Creating task context for "${reason}"`);
+    const autoReveal = getConfigFlag('autoRevealOnTask', true);
+    const contextId = controller.beginContext(reason, {
+      autoReveal,
+      forceReveal: autoReveal,
+    });
+    taskContexts.set(execution, contextId);
+  };
+  const endTaskContext = (execution: vscode.TaskExecution, completionMessage: string): void => {
+    if (!controller) {
+      return;
+    }
+    const contextId = taskContexts.get(execution);
+    if (!contextId) {
+      log(`No context found for task "${execution.task.name ?? 'Task'}"`);
+      return;
+    }
+    log(`Ending context "${contextId}" with message: "${completionMessage}"`);
+    controller.endContext(contextId, completionMessage);
+    taskContexts.delete(execution);
+  };
   context.subscriptions.push(
     vscode.tasks.onDidStartTask((event) => {
       if (!controller || !getConfigFlag('trackTasks', true)) {
         return;
       }
       const reason = `Task: ${event.execution.task.name ?? 'Untitled task'}`;
-      const contextId = controller.beginContext(reason, { autoReveal: true });
-      taskContexts.set(event.execution, contextId);
+      ensureTaskContext(event.execution, reason, 'onDidStartTask');
+    }),
+    vscode.tasks.onDidStartTaskProcess((event) => {
+      if (!controller || !getConfigFlag('trackTasks', true)) {
+        return;
+      }
+      const reason = `Task: ${event.execution.task.name ?? 'Untitled task'}`;
+      ensureTaskContext(event.execution, reason, 'onDidStartTaskProcess');
     }),
     vscode.tasks.onDidEndTask((event) => {
-      if (!controller) {
+      if (!taskContexts.has(event.execution)) {
+        log(`onDidEndTask: "${event.execution.task.name ?? 'Task'}" - context already ended, skipping`);
         return;
       }
-      const contextId = taskContexts.get(event.execution);
-      if (!contextId) {
+      log(`onDidEndTask: "${event.execution.task.name ?? 'Task'}"`);
+      endTaskContext(event.execution, `Task finished: ${event.execution.task.name ?? 'Task'}`);
+    }),
+    vscode.tasks.onDidEndTaskProcess((event) => {
+      if (!taskContexts.has(event.execution)) {
+        log(`onDidEndTaskProcess: "${event.execution.task.name ?? 'Task'}" - context already ended, skipping`);
         return;
       }
-      controller.endContext(contextId, `Task finished: ${event.execution.task.name ?? 'Task'}`);
-      taskContexts.delete(event.execution);
+      log(`onDidEndTaskProcess: "${event.execution.task.name ?? 'Task'}", exitCode: ${event.exitCode}`);
+      const exitDescription = typeof event.exitCode === 'number' && event.exitCode !== 0 ? `Task exited (${event.exitCode})` : `Task finished: ${event.execution.task.name ?? 'Task'}`;
+      endTaskContext(event.execution, exitDescription);
     })
   );
 
@@ -104,6 +151,20 @@ export function deactivate(): void {
   controller = undefined;
 }
 
-function getConfigFlag(key: 'trackTasks' | 'trackDebugSessions', defaultValue: boolean): boolean {
+function getConfigFlag(
+  key: 'trackTasks' | 'trackDebugSessions' | 'autoRevealOnTask',
+  defaultValue: boolean
+): boolean {
   return vscode.workspace.getConfiguration('nyanProgress').get<boolean>(key, defaultValue);
+}
+
+export function log(message: string, ...args: unknown[]): void {
+  const timestamp = new Date().toISOString().split('T')[1].slice(0, -1);
+  const fullMessage = `[${timestamp}] ${message}`;
+  console.log(`[NyanProgress] ${fullMessage}`, ...args);
+  outputChannel?.appendLine(args.length > 0 ? `${fullMessage} ${JSON.stringify(args)}` : fullMessage);
+}
+
+export function getOutputChannel(): vscode.OutputChannel | undefined {
+  return outputChannel;
 }

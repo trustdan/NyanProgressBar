@@ -1,0 +1,5 @@
+2025-11-04 14:42:47.744 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-04 14:42:47.749 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-04 14:42:47.816 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2025-11-04 14:42:54.565 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-11-04 14:42:54.578 [info] ExtensionService#_doActivateExtension danrust.vscode-nyan-progress, startup: false, activationEvent: 'onStartupFinished'

@@ -1,0 +1,3838 @@
+workbench.desktop.main.js:1484 This document requires 'TrustedScript' assignment.
+(anonymous) @ workbench.desktop.main.js:1484
+workbench.desktop.main.js:1484 The JavaScript Function constructor does not accept TrustedString arguments. See https://github.com/w3c/webappsec-trusted-types/wiki/Trusted-Types-for-function-constructor for more information.
+workbench.desktop.main.js:55  WARN Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55  WARN No search provider registered for scheme: file, waiting
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:5602 Overwriting grammar scope name to file mapping for scope source.dart.
+Old grammar file: file:///c%3A/Users/Dan/AppData/Local/Programs/cursor/resources/app/extensions/dart/syntaxes/dart.tmLanguage.json.
+New grammar file: file:///c%3A/Users/Dan/.cursor/extensions/dart-code.dart-code-3.122.0-universal/syntaxes/dart.json
+register @ workbench.desktop.main.js:5602
+workbench.desktop.main.js:5602 Overwriting grammar scope name to file mapping for scope source.groovy.
+Old grammar file: file:///c%3A/Users/Dan/AppData/Local/Programs/cursor/resources/app/extensions/groovy/syntaxes/groovy.tmLanguage.json.
+New grammar file: file:///c%3A/Users/Dan/.cursor/extensions/vscjava.vscode-gradle-3.17.0-universal/syntaxes/groovy.tmLanguage.json
+register @ workbench.desktop.main.js:5602
+textMateTokenizationWorker.workerMain.js:28 Overwriting grammar scope name to file mapping for scope source.dart.
+Old grammar file: file:///c%3A/Users/Dan/AppData/Local/Programs/cursor/resources/app/extensions/dart/syntaxes/dart.tmLanguage.json.
+New grammar file: file:///c%3A/Users/Dan/.cursor/extensions/dart-code.dart-code-3.122.0-universal/syntaxes/dart.json
+register @ textMateTokenizationWorker.workerMain.js:28
+textMateTokenizationWorker.workerMain.js:28 Overwriting grammar scope name to file mapping for scope source.groovy.
+Old grammar file: file:///c%3A/Users/Dan/AppData/Local/Programs/cursor/resources/app/extensions/groovy/syntaxes/groovy.tmLanguage.json.
+New grammar file: file:///c%3A/Users/Dan/.cursor/extensions/vscjava.vscode-gradle-3.17.0-universal/syntaxes/groovy.tmLanguage.json
+register @ textMateTokenizationWorker.workerMain.js:28
+workbench.desktop.main.js:7836 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+mountTo @ workbench.desktop.main.js:7836
+index.html?id=e63663ef-44f5-493f-942c-06d52b75ee0f&origin=80f511a7-4523-4b6b-a6df-93a830d81ddd&swVersion=4&extensionId=Anthropic.claude-code&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app:281 Found unexpected service worker controller. Found: vscode-webview://1m3b846bsfalhof4e0q7bclb269qltcnhgre15rsd08ge9c8k3va/service-worker.js?v=4&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&id=3a1dc90d-4fe3-473c-9f3c-b8d7e1c68240&remoteAuthority=. Expected: service-worker.js?v=4&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&id=e63663ef-44f5-493f-942c-06d52b75ee0f&remoteAuthority=. Waiting for controllerchange.
+workbench.desktop.main.js:5748 [Background Composer] Error updating branch on git status change: Error: No full commit provider registered
+    at UHn.getCurrentBranch (workbench.desktop.main.js:589:379901)
+    at GDt.value (workbench.desktop.main.js:5748:48982)
+    at _e._deliver (workbench.desktop.main.js:49:2962)
+    at _e._deliverQueue (workbench.desktop.main.js:49:3053)
+    at _e.fire (workbench.desktop.main.js:49:3390)
+    at wHc.$gitStatusWasRun (workbench.desktop.main.js:4979:35609)
+    at Ewo._doInvokeHandler (workbench.desktop.main.js:492:36007)
+    at Ewo._invokeHandler (workbench.desktop.main.js:492:35749)
+    at Ewo._receiveRequest (workbench.desktop.main.js:492:34514)
+    at Ewo._receiveOneMessage (workbench.desktop.main.js:492:33336)
+    at GDt.value (workbench.desktop.main.js:492:31429)
+    at _e._deliver (workbench.desktop.main.js:49:2962)
+    at _e.fire (workbench.desktop.main.js:49:3283)
+    at ggt.fire (workbench.desktop.main.js:4974:12156)
+    at MessagePort.<anonymous> (workbench.desktop.main.js:7497:18439)
+(anonymous) @ workbench.desktop.main.js:5748
+workbench.desktop.main.js:5772 [composer] Error checking git status for auto-accepting diffs: Error: No full commit provider registered
+    at UHn.getGitDiff (workbench.desktop.main.js:589:377723)
+    at GDt.value (workbench.desktop.main.js:5772:25886)
+(anonymous) @ workbench.desktop.main.js:5772
+workbench.desktop.main.js:55   ERR [Extension Host] (node:57668) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Cursor --trace-deprecation ...` to show where the warning was created)
+error @ workbench.desktop.main.js:55
+workbench.desktop.main.js:4957 [Extension Host] (node:57668) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Cursor --trace-deprecation ...` to show where the warning was created)
+T5h @ workbench.desktop.main.js:4957
+workbench.desktop.main.js:55  WARN Authentication provider continue was not declared in the Extension Manifest.
+warn @ workbench.desktop.main.js:55
+workbench.desktop.main.js:55   ERR [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at Pgo.toConfigurationEditingError (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:8515)
+    at Pgo.validate (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:11327)
+    at Pgo.doWriteConfiguration (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:4880)
+    at Object.factory (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:4736)
+    at HJ.consume (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:89880)
+    at vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:89695
+    at new Promise (<anonymous>)
+    at HJ.queue (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:89619)
+    at Pgo.writeConfiguration (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:4705)
+    at R2f.writeConfigurationValue (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:63023)
+    at async Promise.all (index 0)
+    at async Object.e [as settled] (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:96134)
+    at async R2f.updateValue (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:45944)
+error @ workbench.desktop.main.js:55
+workbench.desktop.main.js:4957 [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at Pgo.toConfigurationEditingError (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:8515)
+    at Pgo.validate (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:11327)
+    at Pgo.doWriteConfiguration (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:4880)
+    at Object.factory (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:4736)
+    at HJ.consume (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:89880)
+    at vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:89695
+    at new Promise (<anonymous>)
+    at HJ.queue (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:89619)
+    at Pgo.writeConfiguration (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:4705)
+    at R2f.writeConfigurationValue (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:63023)
+    at async Promise.all (index 0)
+    at async Object.e [as settled] (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:50:96134)
+    at async R2f.updateValue (vscode-file://vscode-app/c:/Users/Dan/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7454:45944)
+T5h @ workbench.desktop.main.js:4957
+workbench.desktop.main.js:4957 [Extension Host] Error listing models:  FetchError2: request to http://127.0.0.1:1234/v1/models failed, reason: connect ECONNREFUSED 127.0.0.1:1234
+	at ClientRequest.<anonymous> (c:\Users\Dan\.cursor\extensions\continue.continue-1.2.10-win32-x64\out\extension.js:137415:14)
+	at ClientRequest.emit (node:events:519:28)
+	at emitErrorEvent (node:_http_client:105:11)
+	at Socket.socketErrorListener (node:_http_client:518:5)
+	at Socket.emit (node:events:519:28)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+T5h @ workbench.desktop.main.js:4957
+workbench.desktop.main.js:7497 Extension Host
+workbench.desktop.main.js:4957 [Extension Host] Error listing models:  FetchError2: request to http://127.0.0.1:1234/v1/models failed, reason: connect ECONNREFUSED 127.0.0.1:1234
+	at ClientRequest.<anonymous> (c:\Users\Dan\.cursor\extensions\continue.continue-1.2.10-win32-x64\out\extension.js:137415:14)
+	at ClientRequest.emit (node:events:519:28)
+	at emitErrorEvent (node:_http_client:105:11)
+	at Socket.socketErrorListener (node:_http_client:518:5)
+	at Socket.emit (node:events:519:28)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+T5h @ workbench.desktop.main.js:4957
+workbench.desktop.main.js:7497 Extension Host
+index.js:25 Could not create web worker(s). Falling back to loading web worker code in main thread, which might cause UI freezes. Please see https://github.com/microsoft/monaco-editor#faq
+aA @ index.js:25
+index.js:25 You must define a function MonacoEnvironment.getWorkerUrl or MonacoEnvironment.getWorker
+aA @ index.js:25
+index.js:25 You must define a function MonacoEnvironment.getWorkerUrl or MonacoEnvironment.getWorker
+aA @ index.js:25
+index.js:25 You must define a function MonacoEnvironment.getWorkerUrl or MonacoEnvironment.getWorker
+aA @ index.js:25
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+index.js:22 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+workbench.desktop.main.js:7500 Failed to load team commands: ConnectError: [unauthenticated] Error
+    at t (workbench.desktop.main.js:4989:400502)
+    at async Object.getTeamCommands (workbench.desktop.main.js:589:348464)
+    at async Xpo.loadTeamCommands (workbench.desktop.main.js:7500:2992)
+loadTeamCommands @ workbench.desktop.main.js:7500
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+index.js:12 Uncaught Error: Cannot read properties of undefined (reading 'toUrl')
+
+TypeError: Cannot read properties of undefined (reading 'toUrl')
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at n.toUri (index.js:22:12346)
+    at n.asBrowserUri (index.js:22:11820)
+    at index.js:36:29767
+    at new Promise (<anonymous>)
+    at H1.$loadForeignModule (index.js:36:29658)
+    at index.js:632:4136
+    at async index.js:998:7864
+    at index.js:14:12
+workbench.desktop.main.js:7836 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+mountTo @ workbench.desktop.main.js:7836
+index.js:1011 Received message: Object
+index.js:1011 Received message: Object
+index.js:1011 Received message: Object
+index.js:1011 Received message: Object
+workbench.desktop.main.js:7836 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+mountTo @ workbench.desktop.main.js:7836
+index.html?id=016d2d84-43ca-473c-a447-28d1fb7d9ba7&origin=b96f6c8d-17a6-4042-8c2a-3b2bc6803e6f&swVersion=4&extensionId=danrust.vscode-nyan-progress&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app:281 Found unexpected service worker controller. Found: vscode-webview://0ap0b55m2fg5evk1rihaoftopslm7tffiqqsqkk1k4hdjbor9s3r/service-worker.js?v=4&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&id=b11f5af7-7424-4ab8-b6e8-490eefc35370&remoteAuthority=. Expected: service-worker.js?v=4&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&id=016d2d84-43ca-473c-a447-28d1fb7d9ba7&remoteAuthority=. Waiting for controllerchange.
+nyan.js:89 [NyanProgress WebView] Webview ready, sending ready message
+nyan.js:42 [NyanProgress WebView] Received message: config running: false
+nyan.js:42 [NyanProgress WebView] Received message: stop running: false
+nyan.js:50 [NyanProgress WebView] Stopping animation
+nyan.js:42 [NyanProgress WebView] Received message: status running: false

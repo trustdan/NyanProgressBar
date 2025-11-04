@@ -39,11 +39,15 @@ window.addEventListener('message', (event) => {
     return;
   }
 
+  console.log('[NyanProgress WebView] Received message:', message.type, 'running:', running);
+
   switch (message.type) {
     case 'start':
+      console.log('[NyanProgress WebView] Starting animation with reason:', message.payload?.reason);
       startAnimation(message.payload?.reason, message.payload?.config);
       break;
     case 'stop':
+      console.log('[NyanProgress WebView] Stopping animation');
       stopAnimation(message.payload?.status ?? 'Standing by…');
       break;
     case 'config':
@@ -82,6 +86,8 @@ updateButtonState(false);
 updateStatus('Standing by…');
 actionBtn.setAttribute('aria-label', 'Start animation');
 actionBtn.textContent = '▶';
+console.log('[NyanProgress WebView] Webview ready, sending ready message');
+vscode.postMessage({ type: 'ready' });
 
 function startAnimation(reason = 'In progress…', config) {
   running = true;
