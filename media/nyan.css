@@ -1,0 +1,313 @@
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 50% -10%, rgba(90, 108, 255, 0.35), rgba(6, 8, 25, 0.96) 65%), #050611;
+  color: #f8f9ff;
+}
+
+body.reduced-motion {
+  background: linear-gradient(180deg, #070818, #050611);
+}
+
+.nyan-shell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 22px 26px 28px;
+  min-height: 210px;
+}
+
+.status-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  color: rgba(236, 240, 255, 0.9);
+}
+
+.status-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.action-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.1);
+  color: inherit;
+  cursor: pointer;
+  line-height: 1;
+  transition: background 120ms ease, border 120ms ease, box-shadow 120ms ease;
+}
+
+.action-btn:hover,
+.action-btn:focus-visible {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+}
+
+.action-btn:focus-visible {
+  outline: 2px solid rgba(122, 91, 255, 0.9);
+  outline-offset: 2px;
+}
+
+.action-btn[aria-pressed="true"] {
+  background: rgba(255, 255, 255, 0.28);
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+.viewport {
+  position: relative;
+  flex: 1;
+  min-height: 150px;
+  border-radius: 22px;
+  overflow: hidden;
+  background: radial-gradient(circle at 20% 20%, rgba(120, 140, 255, 0.22), rgba(11, 12, 30, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 0 26px rgba(8, 10, 28, 0.7), 0 18px 34px rgba(12, 14, 35, 0.55);
+}
+
+.viewport::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(7, 8, 24, 0) 0%, rgba(7, 8, 24, 0.92) 100%);
+  pointer-events: none;
+}
+
+.starfield,
+.rainbow-track,
+.sparkles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.starfield {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.75) 1px, transparent 1px);
+  background-size: 140px 140px;
+  opacity: 0.25;
+  animation: star-drift 32s linear infinite;
+}
+
+.sparkles {
+  mix-blend-mode: screen;
+  opacity: 0.65;
+}
+
+.sparkles::before,
+.sparkles::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.55) 0, rgba(255, 255, 255, 0) 32%),
+    radial-gradient(circle at 35% 60%, rgba(255, 226, 255, 0.55) 0, rgba(255, 226, 255, 0) 38%),
+    radial-gradient(circle at 70% 30%, rgba(182, 221, 255, 0.6) 0, rgba(182, 221, 255, 0) 40%),
+    radial-gradient(circle at 85% 70%, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0) 30%);
+  animation: sparkle-fade 6s ease-in-out infinite;
+  filter: blur(0.4px);
+}
+
+.sparkles::after {
+  animation-direction: reverse;
+  opacity: 0.5;
+}
+
+.rainbow-track {
+  top: 44%;
+  left: 48px;
+  right: 48px;
+  height: 58px;
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.62) 100%),
+    repeating-linear-gradient(180deg,
+      #ff4f70 0px,
+      #ff4f70 12px,
+      #ff8a42 12px,
+      #ff8a42 24px,
+      #ffd93f 24px,
+      #ffd93f 36px,
+      #7bf47b 36px,
+      #7bf47b 48px,
+      #4db9ff 48px,
+      #4db9ff 60px,
+      #7a5bff 60px,
+      #7a5bff 72px,
+      #b66bff 72px,
+      #b66bff 84px,
+      #ff4f70 84px,
+      #ff4f70 96px
+    );
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow:
+    0 14px 32px rgba(43, 7, 69, 0.55),
+    0 0 22px rgba(255, 205, 255, 0.45),
+    inset 0 0 18px rgba(255, 255, 255, 0.38);
+  opacity: 0;
+  overflow: hidden;
+}
+
+.rainbow-track::before,
+.rainbow-track::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.rainbow-track::before {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.34) 0%, rgba(255, 255, 255, 0.05) 80%);
+  opacity: 0.85;
+}
+
+.rainbow-track::after {
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25), transparent 25%, transparent 75%, rgba(0, 0, 0, 0.3));
+  opacity: 0.35;
+}
+
+body.is-active .rainbow-track {
+  opacity: 1;
+}
+
+body.is-active:not(.reduced-motion) .rainbow-track {
+  animation: rainbow-flow var(--nyan-track-speed, 3.6s) linear infinite,
+             rainbow-pulse 2.8s ease-in-out infinite;
+}
+
+body.reduced-motion .rainbow-track {
+  animation: none !important;
+  opacity: 0.92;
+}
+
+.nyan-cat {
+  position: absolute;
+  top: calc(47% - 18px);
+  left: 46px;
+  width: 132px;
+  height: 92px;
+  pointer-events: none;
+  --nyan-x: 0px;
+  transform: translateX(var(--nyan-x)) translateY(0);
+  transition: transform 120ms ease;
+  filter: drop-shadow(0 6px 10px rgba(18, 9, 45, 0.45)) drop-shadow(0 0 14px rgba(255, 221, 255, 0.45));
+}
+
+.nyan-cat .sprite {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  image-rendering: crisp-edges;
+  display: none;
+}
+
+.nyan-cat[data-facing="right"] .sprite-right,
+.nyan-cat[data-facing="left"] .sprite-left {
+  display: block;
+}
+
+body.is-active:not(.reduced-motion) .nyan-cat {
+  animation: nyan-bob 1.6s ease-in-out infinite;
+}
+
+body.reduced-motion .nyan-cat {
+  transition: none;
+  animation: none;
+  transform: translateX(0) translateY(0) !important;
+}
+
+body.reduced-motion .starfield {
+  animation: none;
+  opacity: 0.2;
+}
+
+@keyframes star-drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -140px 140px;
+  }
+}
+
+@keyframes rainbow-flow {
+  from {
+    background-position: 0 0, 0 0;
+  }
+  to {
+    background-position: 0 0, 0 -96px;
+  }
+}
+
+@keyframes rainbow-pulse {
+  0%, 100% {
+    box-shadow:
+      0 14px 32px rgba(43, 7, 69, 0.55),
+      0 0 22px rgba(255, 205, 255, 0.35),
+      inset 0 0 18px rgba(255, 255, 255, 0.32);
+  }
+  50% {
+    box-shadow:
+      0 16px 36px rgba(70, 10, 90, 0.6),
+      0 0 30px rgba(255, 240, 255, 0.55),
+      inset 0 0 22px rgba(255, 255, 255, 0.46);
+  }
+}
+
+@keyframes nyan-bob {
+  0%, 100% {
+    transform: translateX(var(--nyan-x)) translateY(0);
+  }
+  50% {
+    transform: translateX(var(--nyan-x)) translateY(-5px);
+  }
+}
+
+@keyframes sparkle-fade {
+  0%, 100% {
+    opacity: 0.65;
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(1.08) translateY(-6px);
+  }
+}
+
+.nyan-cat::before {
+  content: "";
+  position: absolute;
+  inset: 18px 16px 14px 42px;
+  background: radial-gradient(circle at 10% 50%, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0));
+  opacity: 0.65;
+  filter: blur(8px);
+  transform: scaleX(1.2);
+  transition: opacity 200ms ease;
+}
+
+body.reduced-motion .nyan-cat::before {
+  opacity: 0.42;
+  filter: blur(5px);
+}
+

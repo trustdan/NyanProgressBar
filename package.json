@@ -1,0 +1,117 @@
+{
+  "name": "vscode-nyan-progress",
+  "displayName": "Nyan Progress",
+  "description": "Rich Nyan Cat progress visuals for VS Code tasks and commands.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "media/nyan-icon.svg",
+  "activationEvents": [
+    "onCommand:nyanProgress.toggle",
+    "onCommand:nyanProgress.demo",
+    "onCommand:nyanProgress.stop",
+    "onView:nyan.progress",
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "panel": [
+        {
+          "id": "nyanProgress",
+          "title": "Nyan Progress",
+          "icon": "media/nyan-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "nyanProgress": [
+        {
+          "id": "nyan.progress",
+          "name": "Nyan Progress",
+          "type": "webview"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "nyanProgress.toggle",
+        "title": "Nyan Progress: Toggle Animation",
+        "category": "Nyan Progress"
+      },
+      {
+        "command": "nyanProgress.demo",
+        "title": "Nyan Progress: Play Demo Animation",
+        "category": "Nyan Progress"
+      },
+      {
+        "command": "nyanProgress.stop",
+        "title": "Nyan Progress: Stop Animation",
+        "category": "Nyan Progress"
+      }
+    ],
+    "configuration": {
+      "title": "Nyan Progress",
+      "properties": {
+        "nyanProgress.enableStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the Nyan progress indicator in the status bar when active."
+        },
+        "nyanProgress.autoRevealOnTask": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically reveal the Nyan progress view when tracked tasks start."
+        },
+        "nyanProgress.animationSpeed": {
+          "type": "string",
+          "enum": [
+            "slow",
+            "normal",
+            "fast"
+          ],
+          "default": "normal",
+          "description": "Select the Nyan animation tempo."
+        },
+        "nyanProgress.reducedMotion": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable a reduced-motion mode for simplified progress feedback."
+        },
+        "nyanProgress.trackTasks": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically animate when VS Code tasks start."
+        },
+        "nyanProgress.trackDebugSessions": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically animate when debug sessions begin."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.105.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
